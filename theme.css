@@ -225,12 +225,14 @@ nav a:visited {
 
 /* Tables. */
 table {
+    display: block;
     width: 100%;
     border-radius: var(--attb-border-radius);
     border: 1px solid var(--attb-line-color);
     box-shadow: var(--attb-shadow);
     border-collapse: separate;
     border-spacing: 0;
+    overflow-x: auto;
 }
 
 table tr:nth-child(2n), thead {
